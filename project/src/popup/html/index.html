@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Login Extension</title>
+    <!-- Base Styles -->
+    <link rel="stylesheet" href="../css/base/color.css">
+    <link rel="stylesheet" href="../css/base/layout.css">
+    <!-- Foundation Styles -->
+    <link rel="stylesheet" href="../css/foundation/frame.css">
+    <!-- Shell Styles -->
+    <link rel="stylesheet" href="../css/shell/header.css">
+    <link rel="stylesheet" href="../css/shell/body.css">
+    <link rel="stylesheet" href="../css/shell/tokens.css">
+    <!-- Overlay Styles -->
+    <link rel="stylesheet" href="../css/overlay/add-token.css">
+    <link rel="stylesheet" href="../css/overlay/settings.css">
+    <link rel="stylesheet" href="../css/overlay/user-menu.css">
+</head>
+
+<body class="theme-dark">
+    <div class="extension-frame">
+        <!-- Main Shell -->
+        <div class="shell-container">
+            <!-- Body Section -->
+            <main class="shell-body">
+                <!-- Tokens List Container -->
+                <div class="tokens-container">
+                    <!-- Will render individual token cards here -->
+                </div>
+            </main>
+
+            <!-- Header Section -->
+            <header class="shell-header">
+                <!-- Will contain user profile, extension logo/title, and actions (settings, add token) -->
+            </header>
+        </div>
+
+        <!-- Overlays (Hidden by default) -->
+        <div class="overlay-container">
+            <!-- Add Token Overlay -->
+            <div class="overlay-dialog overlay-add-token hidden">
+                <!-- Add Token form/UI will go here -->
+            </div>
+
+            <!-- Settings Overlay -->
+            <div class="overlay-dialog overlay-settings hidden">
+                <!-- Settings UI will go here -->
+            </div>
+
+            <!-- User Menu Overlay -->
+            <div class="overlay-dialog overlay-user-menu hidden">
+                <!-- Sign up / Sign in / Profile Info will go here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Logic Entrypoint -->
+    <script type="module" src="../js/app/app.index.js"></script>
+</body>
+
+</html>

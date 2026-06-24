@@ -1,0 +1,123 @@
+project
+├── docs
+│   ├── layout.txt
+│   └── notes.txt
+├── src
+│   ├── background
+│   │   └── service-worker.js
+│   ├── content
+│   │   └── discord-inject.js
+│   └── popup
+│       ├── css
+│       │   ├── base
+│       │   │   ├── color.css
+│       │   │   └── layout.css
+│       │   ├── foundation
+│       │   │   └── frame.css
+│       │   ├── overlay
+│       │   │   ├── add-token.css
+│       │   │   ├── settings.css
+│       │   │   └── user-menu.css
+│       │   └── shell
+│       │       ├── body.css
+│       │       ├── header.css
+│       │       └── tokens.css
+│       ├── html
+│       │   └── index.html
+│       ├── icons
+│       │   └── .gitkeep
+│       └── js
+│           ├── app
+│           │   ├── app.actions.js
+│           │   ├── app.index.js
+│           │   ├── app.session.js
+│           │   ├── app.shell.js
+│           │   └── app.state.js
+│           ├── const
+│           │   ├── const.auth.js
+│           │   ├── const.backup.js
+│           │   ├── const.theme.js
+│           │   └── const.tokens.js
+│           ├── sections
+│           │   ├── overlay
+│           │   │   ├── add-token
+│           │   │   │   ├── action
+│           │   │   │   │   └── submit.js
+│           │   │   │   ├── close.js
+│           │   │   │   ├── init.js
+│           │   │   │   └── open.js
+│           │   │   ├── settings
+│           │   │   │   ├── action
+│           │   │   │   │   ├── toggle-mode.js
+│           │   │   │   │   └── toggle-theme.js
+│           │   │   │   ├── close.js
+│           │   │   │   ├── init.js
+│           │   │   │   └── open.js
+│           │   │   └── user-menu
+│           │   │       ├── action
+│           │   │       │   ├── create.js
+│           │   │       │   ├── login.js
+│           │   │       │   ├── logout.js
+│           │   │       │   └── switch-tab.js
+│           │   │       ├── render
+│           │   │       │   ├── authenticated.js
+│           │   │       │   ├── sign-in.js
+│           │   │       │   └── sign-up.js
+│           │   │       ├── close.js
+│           │   │       ├── init.js
+│           │   │       └── open.js
+│           │   ├── shell
+│           │   │   ├── body
+│           │   │   │   ├── apply.js
+│           │   │   │   └── init.js
+│           │   │   ├── header
+│           │   │   │   ├── action
+│           │   │   │   │   ├── open-add-token.js
+│           │   │   │   │   ├── open-settings.js
+│           │   │   │   │   └── open-user-menu.js
+│           │   │   │   ├── apply.js
+│           │   │   │   └── init.js
+│           │   │   └── tokens
+│           │   │       ├── action
+│           │   │       │   ├── delete.js
+│           │   │       │   └── launch.js
+│           │   │       ├── card
+│           │   │       │   ├── bind.js
+│           │   │       │   └── render.js
+│           │   │       ├── state
+│           │   │       │   └── list.js
+│           │   │       ├── apply.js
+│           │   │       └── init.js
+│           │   └── sections-index.js
+│           └── services
+│               ├── auth
+│               │   ├── register.js
+│               │   ├── state.js
+│               │   ├── storage.js
+│               │   └── verify.js
+│               ├── backup
+│               │   ├── download.js
+│               │   ├── sync.js
+│               │   └── upload.js
+│               ├── crypto
+│               │   ├── decrypt.js
+│               │   ├── derive-key.js
+│               │   └── encrypt.js
+│               ├── data
+│               │   ├── storage.js
+│               │   ├── tokens.js
+│               │   └── username.js
+│               ├── discord
+│               │   ├── type
+│               │   │   ├── incognito.js
+│               │   │   ├── new-window.js
+│               │   │   └── same-tab.js
+│               │   └── launcher.js
+│               ├── theme
+│               │   ├── apply.js
+│               │   ├── init.js
+│               │   ├── state.js
+│               │   └── storage.js
+│               └── window
+│                   └── overlay-window.js
+└── manifest.json

@@ -1,0 +1,73 @@
+/* Light theme */
+body.theme-white {
+    color-scheme: light;
+
+    /* Brand - Light Red */
+    --color-brand: #ff4d4f;
+    --color-brand-active: #d9363e;
+    --color-brand-hover: rgba(255, 77, 79, 0.1);
+    --color-brand-focus: rgba(255, 77, 79, 0.15);
+
+    /* Text - Dark Grey */
+    --color-text-primary: #212529;
+    --color-text-secondary: #495057;
+    --color-text-tertiary: #868e96;
+    --color-text-on-brand: #ffffff;
+
+    /* Icon */
+    --color-icon-primary: #ff4d4f;
+    --color-icon-secondary: #495057;
+    --color-icon-tertiary: #868e96;
+
+    /* Status */
+    --color-success: #2b8a3e;
+    --color-success-hover: rgba(43, 138, 62, 0.1);
+    --color-error: #da2c2c;
+    --color-error-hover: rgba(218, 44, 44, 0.1);
+
+    /* Surface */
+    --color-surface-primary: #ebebeb;
+    --color-surface-secondary: #ffffff;
+    --color-surface-tertiary: #f8f9fa;
+
+    /* Border */
+    --color-border-primary: #dee2e6;
+    --color-border-secondary: #e9ecef;
+}
+
+/* Dark theme */
+body.theme-dark {
+    color-scheme: dark;
+
+    /* Brand - Light Red */
+    --color-brand: #ff6b6b;
+    --color-brand-active: #fa5252;
+    --color-brand-hover: rgba(255, 107, 107, 0.1);
+    --color-brand-focus: rgba(255, 107, 107, 0.15);
+
+    /* Text */
+    --color-text-primary: #f1f3f5;
+    --color-text-secondary: #adb5bd;
+    --color-text-tertiary: #868e96;
+    --color-text-on-brand: #ffffff;
+
+    /* Icon */
+    --color-icon-primary: #ff6b6b;
+    --color-icon-secondary: #adb5bd;
+    --color-icon-tertiary: #868e96;
+
+    /* Status */
+    --color-success: #51cf66;
+    --color-success-hover: rgba(81, 207, 102, 0.1);
+    --color-error: #ff6b6b;
+    --color-error-hover: rgba(255, 107, 107, 0.1);
+
+    /* Surface - Dark Grey */
+    --color-surface-primary: #121212;
+    --color-surface-secondary: #1e1e1e;
+    --color-surface-tertiary: #111111;
+
+    /* Border */
+    --color-border-primary: #333333;
+    --color-border-secondary: #444444;
+}
